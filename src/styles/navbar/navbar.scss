@@ -1,0 +1,16 @@
+@import "./../all/import";
+.nav-bar {
+    position: absolute;
+    &__body {
+
+    }
+    &__item {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__list {
+
+    }
+}

@@ -1,0 +1,11 @@
+@import "./../all/import.scss";
+.header {
+    background-color: purple;
+    margin-bottom: 50px;
+    &__body {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

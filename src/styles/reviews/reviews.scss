@@ -1,0 +1,28 @@
+@import "./../all/import";
+
+.reviews {
+
+    &__body {
+
+    }
+    &__item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: white;
+        width: 200px;
+        height: 100px;
+    }
+    &__list {
+        border: 1px solid gray;
+        border-radius: 10px;
+        width: 200px;
+    }
+    &-img {
+
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+    }
+}
